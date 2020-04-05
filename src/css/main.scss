@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import "./header.scss";
+@import "./nav.scss";
+@import "./sections/main.scss";
+
+:root {
+	--main-background-color: #e1e1e1;
+	--second-background-color: #cccccc;
+
+	--main-text-color: #ffffff;
+
+	--main-accent-color: #ff9800;
+	--second-accent-color: #ffa11e;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span {
+	color: var(--main-text-color);
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-text-color);
+}

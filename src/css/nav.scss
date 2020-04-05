@@ -1,0 +1,32 @@
+nav {
+	display: block;
+	height: 60px;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	box-shadow: 0px 6px 0px 0px var(--main-accent-color);
+	z-index: 2;
+
+	ul {
+		list-style-type: none;
+		display: flex;
+
+		li {
+			width: 100%;
+
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				line-height: 60px;
+				transition: 0.2s;
+				background-color: var(--second-accent-color);
+
+				&:hover {
+					background: var(--main-accent-color);
+				}
+			}
+		}
+	}
+}
